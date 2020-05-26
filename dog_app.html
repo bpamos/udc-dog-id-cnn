@@ -14073,7 +14073,7 @@ Num test images:  836
 <p>Each convolutional layer decreases the image tensor size by a factor of 2, so the starting image tensor of 224x224x3 eventually ends as 7x7x256.</p>
 <p>This final convolutional output is then flattened and a dropout layer of 0.25 is applied before it is fed into the 1st hidden fully connected layer with a relu activation function. Then a second dropout is performed before the final 2nd hidden fully connected layer.</p>
 <p>After which cross entropy loss and a SGD optimizer is applied.</p>
-<p>The final result was a 17% accuracy at 15 epochs. The epochs could have continued, increasing the accuracy, as the validation loss was never greater than the training loss.</p>
+<p>The final result was a 17% accuracy at 10 epochs. The epochs could have continued, increasing the accuracy, as the validation loss was never greater than the training loss.</p>
 
 </div>
 </div>
